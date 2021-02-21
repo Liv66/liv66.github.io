@@ -27,7 +27,7 @@ function init(){
 }
 
 function load(){
-  image.src = `C:/Users/TaeHeonKim/Desktop/김정헌/web/졸업과제/images/back.jpg`
+  image.src = `images/back.jpg`
   image.classList.add("bgImage")
   body.prepend(image);
   const id = localStorage.getItem("currentName")
