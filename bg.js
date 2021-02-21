@@ -15,7 +15,7 @@ function paintImage(){
   while (imgNumber === a) {
     imgNumber = Math.floor(Math.random()*IMG_NUMBER);
   }
-  image.src=`C:/Users/TaeHeonKim/Desktop/김정헌/web/졸업과제/images/${imgNumber + 1}.jpg`
+  image.src=`images/${imgNumber + 1}.jpg`
   image.classList.add("bgImage")
   body.prepend(image);
 }
