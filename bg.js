@@ -23,7 +23,7 @@ function paintImage(){
 
 function init(){
   paintImage()
-  setInterval(changeImg,15000)
+  setInterval(changeImg,9000)
 }
 
 function load(){
